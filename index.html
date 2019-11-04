@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div style="margin-top:50px;"></div>
+<div class="container">
+<!-- ########################### Heading  and basic Typography ##########################-->
+
+<!-- HEADINGS-->
+<h1>Heading One<h1>
+<h1 class="h6">Heading One<h1>
+<h2 class="h4">Heading One<h2>
+
+<hr>
+
+<!-- DISPLAY-->
+
+<h1 class="display-1">My Heading</h1>
+<h1 class="display-2">My Heading</h1>
+<h1 class="display-3">My Heading</h1>
+<h1 class="display-4">My Heading</h1>
+
+<hr>
+<!-- PARAGRAPHS-->
+
+<p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+
+<hr>
+<!-- STYLE CLASS-->
+<p class="font-weight-bold"> Bold Text</p>
+<p class="font-weight-normal"> Normal Text</p>
+<p class="font-italic">Italic Text</p>
+
+<hr>
+<!-- TEXT TRANSFORMS-->
+<p class="text-lowercase">HELLO WORLD</p>
+<p class="text-uppercase">hello world</p>
+<p class="text-capitalize">hello world</p>
+
+<hr>
+<!-- LISTS-->
+<ul class="list-unstyled">
+  <li> Lorem ipsum dolor sit </li>
+  <li> Lorem ipsum dolor sit </li>
+  <li> Lorem ipsum dolor sit </li>
+  <li> Lorem ipsum dolor sit </li>
+</ul>
+
+<ul class="list-inline">
+  <li class="list-inline-item"> Lorem ipsum dolor sit </li>
+  <li class="list-inline-item"> Lorem ipsum dolor sit </li>
+  <li class="list-inline-item"> Lorem ipsum dolor sit </li>
+</ul>
+
+<!-- ########################### Text Alignment & Display ##########################-->
+
+<hr>
+<!-- JUSTIFY-->
+
+<p class="text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+<br><br>
+<!-- ALIGNMENT-->
+
+<p class="text-left">Lorem ipsum dolor sit</p>
+<p class="text-center">Lorem ipsum dolor sit</p>
+<p class="text-right">Lorem ipsum dolor sit</p>
+
+<!-- RESPONSIVE ALIGNMENT ALL DEVICE SUCH MOBILE,DEXTOP,LAPTOP-->
+
+<p class="text-sm-right"> Right Align on small or large </p>
+<p class="text-md-right"> Right Align on medium or large </p>
+<p class="text-lg-right"> Right Align on large or larger </p>
+<p class="text-xl-right"> Right Align on xl or larger </p>
+
+<hr>
+<!-- RESPONSIVE  LEFT ALIGNMENT ALL DEVICE -->
+
+<p class="text-sm-left"> Left Align on small or large </p>
+<p class="text-md-left"> Left Align on small or large </p>
+<p class="text-lg-left"> Left Align on small or large </p>
+<p class="text-xl-left"> Left Align on small or large </p>
+
+
+<hr>
+<!-- RESPONSIVE  CENTER ALIGNMENT ALL DEVICE -->
+
+<p class="text-sm-center"> Center Align on small or large </p>
+<p class="text-md-center"> Center Align on small or large </p>
+<p class="text-lg-center"> Center Align on small or large </p>
+<p class="text-xl-center"> Center Align on small or large </p>
+<br><br>
+
+<!-- VERTICAL ALIGNMENT-->
+
+<table style="height:100px;">
+<tbody>
+  <tr>
+    <td class="align-baseline">baseline</td>
+    <td class="align-top">top</td>
+    <td class="align-middle">middle</td>
+    <td class="align-bottom">bottom</td>
+    <td class="align-text-top"
+    >text-top</td>
+    <td class="align-text-bottom">text-bottom</td>
+  </tr>
+</tbody>
+</table>
+<hr>
+<!--TURN BLOCK TO INLINE-->
+<h1 class="d-inline bg-success">HELLO</h1>
+<h1 class="d-inline bg-success">GOODBYE</h1>
+
+<hr>
+<!--TURN INLINE TO BLOCK-->
+<span class="d-block bg-success">Block</span>
+<br><br>
+
+<!--INLINE BLOCK-->
+
+<div class="d-inline-block bg-success">
+<h3>Hello</h3>
+This is inline
+</div>
+<div class="d-inline-block bg-primary">
+<h3>Hello</h3>
+This is also
+</div>
+<hr>
+
+<!-- ########################### Floats & Fixed Position ##########################-->
+
+
+<h2 class="text-center bg-success">Floats and Position</h2>
+
+<!--FLOATS-->
+<div class="float-left">Float left</div>
+<div class="float-right">Float right</div>
+<div class="float-none">Float none</div>
+<hr>
+<hr>
+<!-- RESPONSIVE FLOATS-->
+<div class="float-sm-right">Float right on small or wider</div><br>
+<div class="float-md-right">Float right on medium or wider</div><br>
+<div class="float-lg-right">Float right on large or wider</div><br>
+<div class="float-xl-right">Float right on extra large or wider</div><br>
+
+
+<div class="float-sm-left">Float left on small or wider</div><br>
+<div class="float-md-left">Float left on medium or wider</div><br>
+<div class="float-lg-left">Float left on large or wider</div><br>
+<div class="float-xl-left">Float left on extra large or wider</div><br>
+
+
+
+<div class="float-sm-none">Float left on small or wider</div><br>
+<div class="float-md-none">Float left on medium or wider</div><br>
+<div class="float-lg-none">Float left on large or wider</div><br>
+<div class="float-xl-none">Float left on extra large or wider</div><br>
+
+<br><br>
+<!--CLEARFIX-->
+<div class="bg-success clearfix">
+  <button class="btn btn-secondary float-left">Click Left</button>
+  <button class="btn btn-secondary float-right">Click Right</button>
+</div>
+<!--FIXED TOP-->
+<h3 class="fixed-top">Fixed Top</h3>
+
+<!--FIXED STICKY-->
+<h3 class="sticky-top">Sticky</h3>
+<!--FIXED BOTTOM-->
+<h3 class="fixed-bottom">Fixed Bottom</h3>
+
+<hr>
+<hr>
+
+<!-- ########################### Colors & Background ##########################-->
+<!--TEXT COLORS-->
+
+<p class="text-primary">It is a long established fact that a reader will be distracted</p>
+<p class="text-success">It is a long established fact that a reader will be distracted</p>
+<p class="text-info">It is a long established fact that a reader will be distracted</p>
+<p class="text-warning">It is a long established fact that a reader will be distracted</p>
+<p class="text-danger">It is a long established fact that a reader will be distracted</p>
+<p class="text-muted">It is a long established fact that a reader will be distracted</p>
+<p class="text-white">It is a long established fact that a reader will be distracted</p>
+
+<hr>
+<!--BACKGROUND COLORS-->
+
+<div class="bg-primary  text-white">It is a long established fact that a reader will be distracted</div>
+<div class="bg-info  text-white">It is a long established fact that a reader will be distracted</div>
+<div class="bg-success text-white">It is a long established fact that a reader will be distracted</div>
+<div class="bg-warning text-white">It is a long established fact that a reader will be distracted</div>
+<div class="bg-danger  text-white">It is a long established fact that a reader will be distracted</div>
+<div class="bg-dark text-white">It is a long established fact that a reader will be distracted</div>
+<div class="bg-light text-white">It is a long established fact that a reader will be distracted</div>
+
+
+
+<hr>
+<!--INVISIBLE-->
+<p class="invisible">Hello</p>
+
+
+<hr>
+
+
+<!-- ########################### Margin & Padding ##########################-->
+
+<h1 class="display-3 text-center my-4">Spacing</h1>
+
+<!--MB=MARGIN BOTTOM-->
+<p class="bg-success mb-0">Lorem ipsum</p>
+<p class="bg-success mb-1">Lorem ipsum</p>
+<p class="bg-success mb-2">Lorem ipsum</p>
+<p class="bg-success mb-3">Lorem ipsum</p>
+<p class="bg-success mb-4">Lorem ipsum</p>
+<p class="bg-success mb-5">Lorem ipsum</p>
+
+
+
+<!--Mt=MARGIN TOP-->
+<p class="bg-success mt-0">Lorem ipsum</p>
+<p class="bg-success mt-1">Lorem ipsum</p>
+<p class="bg-success mt-2">Lorem ipsum</p>
+<p class="bg-success mt-3">Lorem ipsum</p>
+<p class="bg-success mt-4">Lorem ipsum</p>
+<p class="bg-success mt-5">Lorem ipsum</p>
+
+<hr>
+<!--ML=MARGIN LEFT & MR=MARGIN RIGHT-->
+
+
+<p><span class="bg-success mr-5">Lorem ipsum</span>dolor sit amet,<span  class="bg-success ml-5">consectetur</span>volutatum<p>
+
+<br><br>
+<!--MX=MARGIN LEFT &  RIGHT-->
+
+<p class="mx-5">It is a long established fact that a reader will be distracted</p>
+
+
+
+<br><br>
+<!--MY=MARGIN TOP &  BOTTOM-->
+
+<p class="my-5">It is a long established fact that a reader will be distracted</p>
+
+
+<br><br>
+<!--MY=MARGIN TOP &  BOTTOM-->
+<p class=" bg-success my-5">It is a long established fact that a reader will be distracted</p>
+
+
+<br><br>
+<!--BLANK ALL SIDES-->
+<p class=" bg-success my-5">It is a long established fact that a reader will be distracted</p>
+<p class=" bg-success my-5 m-5">It is a long established fact that a reader will be distracted</p>
+<p class=" bg-success my-5">It is a long established fact that a reader will be distracted</p>
+
+<!-- PB PADDING BOTTOM-->
+
+<h1 class="bg-warning pb-0">Lorem ipsum</h1>
+<h1 class="bg-warning pb-1">Lorem ipsum</h1>
+<h1 class="bg-warning pb-2">Lorem ipsum</h1>
+<h1 class="bg-warning pb-3">Lorem ipsum</h1>
+<h1 class="bg-warning pb-4">Lorem ipsum</h1>
+<h1 class="bg-warning pb-5">Lorem ipsum</h1>
+<br>
+
+<!-- PT PADDING TOP-->
+
+<h1 class="bg-warning pt-0">Lorem ipsum</h1>
+<h1 class="bg-warning pt-1">Lorem ipsum</h1>
+<h1 class="bg-warning pt-2">Lorem ipsum</h1>
+<h1 class="bg-warning pt-3">Lorem ipsum</h1>
+<h1 class="bg-warning pt-4">Lorem ipsum</h1>
+<h1 class="bg-warning pt-5">Lorem ipsum</h1>
+<br><br>
+<!-- PL & PR-->
+
+<p><span class="bg-warning pr-5">Lorem ipsum</span> dolor sit amet,<span class="bg-warning pl-5 ">consectetur</span>elit.</p>
+
+<!-- PX PADDING LEFT RIGHT-->
+
+<p>Lorem ipsum</span> dolor sit amet,<span class="bg-warning px-5">consectetur</span> elit.</p>
+<br><br>
+
+<!-- PY PADDING TOP BOTTOM-->
+
+<p>Lorem ipsum dolor sit amet,<span class="bg-warning py-3">consectetur</span> elit.</p>
+
+
+<br><br>
+
+<!-- PADDING ALL SIDES-->
+
+<p><span class="bg-warning p-5">Lorem ipsum dolor sit amet,consectetur elit.</span> </p>
+<br><br>
+<hr>
+
+<!-- ########################### Width & Height ##########################-->
+
+<h1 class="display-3 text-center my-4">Sizing<h1>
+  <div class="container">
+
+
+    <br><br>
+
+    <!-- WIDTH CLASSES-->
+     <div class="bg-primary text-white w-25">Width 25%</div>
+     <div class="bg-danger text-white w-50">Width 50%</div>
+     <div class="bg-warning text-white w-75">Width 75%</div>
+     <div class="bg-success text-white w-100">Width 100%</div>
+
+     <br><br>
+
+     <!-- WIDTH CLASSES SAME LINE-->
+      <div class="bg-primary w-25 float-left">Width 25%</div>
+      <div class="bg-danger  w-25 float-left">Width 50%</div>
+      <div class="bg-warning  w-25 float-left">Width 75%</div>
+      <div class="bg-success w-25 float-left">Width 100%</div>
+   <br><br>
+
+
+<!-- HEIGHT CLASSES -->
+
+<br><br>
+<div style="height:300px;border:1px solid #333;">
+  <div class="bg-primary h-25 ">Height 25%</div>
+  <div class="bg-danger  h-50 ">Height 50%</div>
+  <div class="bg-warning  h-75 ">Height 75%</div>
+  <div class="bg-dark text-white h-100 ">Height 100%</div>
+</div>
+
+
+
+</div>
+<div style="margin-top:50px;">
+  <script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+</body>
+</html>

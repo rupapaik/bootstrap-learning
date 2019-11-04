@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div style="margin-top:50px;"></div>
+<div class="container">
+<!-- ###########################Tooltips##########################-->
+<h1 class="display-3 text-center my-4">TOOLTIPS<h1>
+<!--TOOLTIPS-->
+<button class="btn btn-warning" title="Hello World!" data-placement="top" data-toggle="tooltip">Tooltip on top</button>
+
+<button class="btn btn-warning" title="Hello World!" data-placement="left" data-toggle="tooltip">Tooltip on left</button>
+
+<button class="btn btn-warning" title="Hello World!" data-placement="right" data-toggle="tooltip">Tooltip on right</button>
+
+<button class="btn btn-warning" title="Hello World!" data-placement="bottom" data-toggle="tooltip">Tooltip on bottom</button>
+<br><br>
+<!--TOOLTIPS WITH HTML-->
+
+<button id="hello" class="btn btn-danger" data-html="true" title="<h2>Hello World!</h2><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>" data-placement="top" data-toggle="tooltip">Tooltip on top</button>
+<br><br>
+<hr>
+<!--TRIGGER WITH JS-->
+<button class="btn btn-success" onClick="showToolTip()">Show Tooltip</button>
+<button class="btn btn-danger" onClick="hideToolTip()">Hide Tooltip</button>
+<button class="btn btn-info" onClick="toggleToolTip()">Toggle Tooltip</button>
+
+
+
+  </div>
+  <div style="margin-top:50px;">
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src ="js/bootstrap.min.js"></script>
+  <script>
+    $('[data-toggle="tooltip"]').tooltip();
+    function showToolTip(){
+       $('#hello').tooltip('show');
+    }
+    function hideToolTip(){
+       $('#hello').tooltip('hide');
+    }
+    function toggleToolTip(){
+       $('#hello').tooltip('toggle');
+    }
+  </script>
+</body>
+</html>

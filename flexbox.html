@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+.row-h1{
+  background:#f4f4f4;
+  height:250px;
+}
+.item-h1{
+  border:1px solid #333;
+}
+  </style>
+</head>
+<body>
+
+<div style="margin-top:50px;"></div>
+<div class="container">
+<!-- ########################### Flexbox ##########################-->
+
+<h1 class="display-3 text-center my-4">Flexbox<h1>
+<!--FLEX ROW & FLEX ITEMS-->
+
+<div class="d-flex row-h1 flex-row">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!--FLEX ROW REVERSE-->
+<div class="d-flex row-h1 flex-row-reverse">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!--JUSTIFY CONTENT-->
+<div class="d-flex row-h1 flex-row justify-content-start">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!-- CONTENT CENTER-->
+<div class="d-flex row-h1 flex-row justify-content-center">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!-- CONTENT END/RIGHT-->
+<div class="d-flex row-h1 flex-row justify-content-end">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+
+<!-- CONTENT AROUND-->
+<div class="d-flex row-h1 flex-row justify-content-around">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!-- CONTENT BETWEEN-->
+<div class="d-flex row-h1 flex-row justify-content-between">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!-- FLEX CONTAINER/FLEX COLUMNS-->
+<div class="d-flex row-h1 flex-column ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+
+<!-- FLEX CONTAINER/FLEX COLUMNS REVERSE-->
+<div class="d-flex row-h1 flex-column-reverse ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!-- FLEX CONTENT -->
+<div class="d-flex row-h1 flex-column justify-content-start">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-column justify-content-center">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-column justify-content-end">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-column justify-content-around">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+
+<div class="d-flex row-h1 flex-column justify-content-between">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!-- VERTICAL ALIGN ITEM -->
+<div class="d-flex row-h1 flex-row align-items-start ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-row align-items-center ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-row align-items-end ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-row align-items-baseline ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<div class="d-flex row-h1 flex-row align-items-stretch ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!--RESPONSIVE VERTICAL ALIGN ITEM -->
+<div class="d-flex row-h1 flex-row align-items-center align-items-sm-start align-items-md-end ">
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+
+<!-- ALIGN SELF -->
+<div class="d-flex row-h1 flex-row">
+  <div class="p-4 item-h1 align-self-start">Flex Item</div>
+  <div class="p-4 item-h1 align-self-center">Flex Item</div>
+  <div class="p-4 item-h1 align-self-end">Flex Item</div>
+  <div class="p-4 item-h1 align-self-baseline">Flex Item</div>
+  <div class="p-4 item-h1 align-self-stretch">Flex Item</div>
+</div>
+<br><br>
+
+
+<!--  RESPONSIVE ALIGN SELF -->
+<div class="d-flex row-h1 flex-row">
+  <div class="p-4 item-h1 align-self-center align-self-sm-start self-lg-start self-md-end">Flex Item</div>
+  <div class="p-4 item-h1 align-self-center align-self-sm-end">Flex Item</div>
+  <div class="p-4 item-h1 align-self-center align-self-md-start">Flex Item</div>
+  <div class="p-4 item-h1 align-self-end align-self-md-start">Flex Item</div>
+  <div class="p-4 item-h1 align-self-end align-self-lg-start">Flex Item</div>
+</div>
+<br><br>
+<hr>
+
+<!-- ########################### Wrapping ##########################-->
+
+<h1 class="display-3 text-center my-4"> Wrapping<h1>
+<!--MR-AUTO-->
+<div class="d-flex row-h1 ">
+  <div class="p-4 item-h1 mr-auto">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+</div>
+<br><br>
+
+<!--ML-AUTO-->
+<div class="d-flex row-h1 ">
+  <div class="p-4 item-h1 ">Flex Item</div>
+  <div class="p-4 item-h1">Flex Item</div>
+  <div class="p-4 item-h1 ml-auto">Flex Item</div>
+</div>
+<br><br>
+
+<!--MB-AUTO-->
+<div class="d-flex row-h1 flex-column">
+  <div class="p-2 mb-auto item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+</div>
+<br><br>
+
+<!--MT-AUTO-->
+<div class="d-flex row-h1 flex-column">
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 mt-auto item-h1 ">Flex Item</div>
+</div>
+<br><br>
+
+<!--NO WRAP-->
+<div class="d-flex row-h1 flex-nowrap">
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+</div>
+<br><br>
+
+<!--WRAP-->
+<div class="d-flex row-h1 flex-wrap">
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+  <div class="p-2 item-h1">Flex Item</div>
+  <div class="p-2 item-h1 ">Flex Item</div>
+</div>
+<br><br>
+<br><br>
+<!--ORDERING-->
+<div class="d-flex row-h1 ">
+  <div class="p-4 item-h1 order-3 order-sm-1">Flex Item 1</div>
+  <div class="p-4 item-h1 order-2 order-sm-3">Flex Item 2</div>
+  <div class="p-4 item-h1 order-1 order-sm-2">Flex Item 3</div>
+</div>
+<br><br>
+
+</div>
+<div style="margin-top:50px;">
+  <script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div style="margin-top:50px;"></div>
+<div class="container">
+<!-- ########################### Input Groups & Addons ##########################-->
+<h1 class="display-3 text-center my-4">Input Groups & Addons<h1>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+      <span class="input-group-text">@</span>
+   </div>
+<input class="form-control" type="text" placeholder="username">
+</div>
+<br>
+<div class="input-group">
+<input class="form-control"  type="text" placeholder="Email Address">
+  <div class="input-group-append">
+  <span class="input-group-text">@yahoo.com</span>
+  </div>
+</div>
+
+<br>
+<lable for="profile-url">Choose profile URL</lable>
+<div class="input-group">
+    <div class="input-group-prepend">
+       <span class="input-group-text">https://youtube.com/movie/</span>
+  </div>
+<input class="form-control" type="text" id="profie-url">
+</div>
+<br>
+
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">$</span>
+</div>
+  <input class="form-control" type="text">
+  <div class="input-group-append">
+      <span class="input-group-text">.00</span>
+  </div>
+</div>
+<br><br>
+<div class="input-group input-group-lg">
+  <div class="input-group-prepend">
+      <span class="input-group-text">@</span>
+  </div>
+  <input class="form-control" type="text" placeholder="Username">
+</div>
+<br><br>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+  <span class="input-group-text">
+    <input type="checkbox">
+  </span>
+  </div>
+  <input class="form-control" type="text">
+</div>
+<br><br>
+
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">
+      <input  type="radio">
+      </span>
+    </div>
+        <div class="input-group-prepend">
+           <span class="input-group-text">$7.00</span>
+        </div>
+      <input class="form-control" type="text">
+</div>
+<br><br>
+
+<div class="input-group">
+  <input class="form-control" type="text" placeholder="Search for...">
+  <span class="input-group-append">
+    <button class="btn btn-danger"type="button">Search</button>
+  </span>
+</div>
+<br><br>
+<hr>
+
+<!-- ########################### Alerts & Progress Bars ##########################-->
+<!--ALERTS-->
+
+<div class="alert alert-success">
+<strong>Success</strong> Blog Post Added <a class="alert-link" href="#">Check It Out</a>
+</div>
+
+<div class="alert alert-info">
+<strong>Attention</strong> You Have  New Message <a class="alert-link" href="#">Check It Out</a>
+</div>
+
+<div class="alert alert-warning">
+<strong>Warning</strong> Please check the log files<a class="alert-link" href="#">Check It Out</a>
+</div>
+
+<div class="alert alert-danger">
+  <h4>There's a Problem</h4>
+<strong>Error</strong> Database update failed<a class="alert-link" href="#">Check It Out</a>
+</div>
+<br><br>
+
+<!--ALERTS-->
+<div class="alert alert-success alert-dismissable fade show">
+<button class="close" data-dismiss="alert" type="button">
+  <span>&times</span>
+</button>
+<strong>Success</strong> Blog Post Added <a class="alert-link" href="#">Check It Out</a>
+</div>
+<br><br>
+
+<!--PROGRESS BARS-->
+<div class="progress">
+  <div class="progress-bar" style="width:50%">HTML</div>
+</div>
+<br>
+
+<div  class="progress">
+  <div class="progress-bar bg-success" style="width:25%">25%</div>
+</div>
+<br>
+
+<div  class="progress">
+  <div class="progress-bar bg-warning" style="width:50%">50%</div>
+</div>
+<br>
+
+<div  class="progress">
+  <div class="progress-bar bg-info" style="width:75%">75%</div>
+</div>
+<br>
+
+<div  class="progress">
+  <div class="progress-bar bg-dark" style="width:100%">100%</div>
+</div>
+<br>
+
+
+<div  class="progress">
+  <div class="progress-bar progress-bar-striped bg-danger" style="width:75%">75%</div>
+</div>
+<br>
+
+<div  class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark " style="width:100%">RUPA</div>
+</div>
+<br>
+<br><br>
+
+<hr>
+
+<!-- ########################### Table & Pagination ##########################-->
+<h1 class="display-3 text-center my-4">Table & Pagination<h1>
+<!--TABLE-->
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jhon</td>
+      <td>Doe</td>
+      <td>jdoe@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+      <td>Will</td>
+      <td>Jhonsan</td>
+      <td>jansan@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Shanon</td>
+      <td>Willium</td>
+      <td>swill@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<table class="table table-warning">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jhon</td>
+      <td>Doe</td>
+      <td>jdoe@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+      <td>Will</td>
+      <td>Jhonsan</td>
+      <td>jansan@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Shanon</td>
+      <td>Willium</td>
+      <td>swill@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!--TABLE HEAD INSVERSE-->
+<table class="table">
+  <thead class="table-info">
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jhon</td>
+      <td>Doe</td>
+      <td>jdoe@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+      <td>Will</td>
+      <td>Jhonsan</td>
+      <td>jansan@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Shanon</td>
+      <td>Willium</td>
+      <td>swill@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!--TABLE STRIPED-->
+ <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jhon</td>
+      <td>Doe</td>
+      <td>jdoe@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+      <td>Will</td>
+      <td>Jhonsan</td>
+      <td>jansan@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Shanon</td>
+      <td>Willium</td>
+      <td>swill@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!--TABLE BORDER&HOVER-->
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jhon</td>
+      <td>Doe</td>
+      <td>jdoe@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+      <td>Will</td>
+      <td>Jhonsan</td>
+      <td>jansan@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Shanon</td>
+      <td>Willium</td>
+      <td>swill@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!--SMALL TABLE-->
+<table class="table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Jhon</td>
+      <td>Doe</td>
+      <td>jdoe@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="table-dark">
+      <th scope="row">2</th>
+      <td>Will</td>
+      <td>Jhonsan</td>
+      <td>jansan@gmail.com</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Shanon</td>
+      <td>Willium</td>
+      <td>swill@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<!--PAGINATION-->
+
+<nav>
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+</div>
+<div style="margin-top:50px;">
+  <script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+</body>
+</html>

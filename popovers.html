@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div style="margin-top:50px;"></div>
+<div class="container">
+<!-- ###########################Popovers##########################-->
+<h1 class="display-3 text-center my-4">Popovers<h1>
+<!--POPOVERS-->
+<br><br>
+<button class="btn btn-primary" data-toggle="popover" title="Hello World!" data-content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+data-placement="top">Popover</button>
+
+<button class="btn btn-success" data-toggle="popover" title="Hello World!" data-content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+data-placement="left">Popover</button>
+
+<button id="mypops"class="btn btn-info" data-toggle="popover" title="Hello World!" data-content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+data-placement="right">Popover</button>
+
+<button class="btn btn-danger" data-toggle="popover" title="Hello World!" data-content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+data-placement="bottom">Popover</button>
+<br><br>
+
+<!-- DISMISSABLE POPOVERS-->
+<button id="mypop" class="btn btn-warning" data-trigger="focus" data-toggle="popover" title="Hello World!" data-content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+data-placement="top">Popover
+</button>
+<br><br>
+<hr>
+<!-- CONTROL WITH JS-->
+<button class="btn btn-sm btn-secondary" onClick="showPopover()">Show Popover</button>
+<button class="btn btn-sm btn-secondary" onClick="hidePopover()">Hide Popover</button>
+<button class="btn btn-sm btn-secondary" onClick="togglePopover()">Toggle Popover</button>
+
+</div>
+<div style="margin-top:50px;">
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+<script>
+  $('[data-toggle="popover"]').popover();
+  function showPopover(){
+    $('#mypop').popover('show')
+  }
+  function hidePopover(){
+    $('#mypop').popover('hide')
+  }
+  function togglePopover(){
+    $('#mypops').popover('toggle')
+  }
+</script>
+</body>
+</html>
